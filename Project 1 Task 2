@@ -1,3 +1,9 @@
 name = input("Input the Filename: ")
-ext = name.split(".")
-print ("The extension of the file is : " + ext[-1])
+ext = name.split(".") 
+p=ext[-1]
+if p==("py"):
+  print("The extension of the file is : python")
+elif p==("txt"):
+  print("The extension of the file is : text")
+else:
+  print ("The extension of the file is : " + ext[-1])
