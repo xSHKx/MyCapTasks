@@ -1,0 +1,7 @@
+from collections import Counter
+ 
+S = input("Please enter a string : ") 
+   
+C = Counter(S)
+
+print ("Count of all characters is :\n " +  str(C))
